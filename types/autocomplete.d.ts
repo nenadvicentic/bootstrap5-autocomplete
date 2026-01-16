@@ -389,6 +389,10 @@ declare class Autocomplete {
      */
     getDropMenu(): HTMLUListElement;
     /**
+     * @returns {HTMLInputElement}
+     */
+    getHiddenInput(): HTMLInputElement;
+    /**
      * Position the dropdown menu
      * @private
      */
