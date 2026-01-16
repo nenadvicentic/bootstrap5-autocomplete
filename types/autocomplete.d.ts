@@ -233,7 +233,7 @@ declare class Autocomplete {
      * @param {Partial<Config>} config
      */
     private _configure;
-    _config: any;
+    _config: Config;
     /**
      * @private
      */
@@ -248,6 +248,11 @@ declare class Autocomplete {
      * @param {MouseEvent} e
      */
     onclick(e: MouseEvent): void;
+    /**
+     * @param {InputEvent} e
+     * @returns {void}
+     */
+    onbeforeinput(e: InputEvent): void;
     /**
      * @param {InputEvent} e
      * @returns {void}
