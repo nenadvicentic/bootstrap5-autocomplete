@@ -1173,6 +1173,13 @@ class Autocomplete {
   }
 
   /**
+   * @returns {HTMLInputElement}
+   */
+  getHiddenInput() {
+    return this._hiddenInput;
+  }
+
+  /**
    * Position the dropdown menu
    * @private
    */
